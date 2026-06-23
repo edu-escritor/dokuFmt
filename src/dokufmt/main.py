@@ -1,5 +1,10 @@
+from dokufmt.cli.parser import parse_cli
+
+
 def main() -> None:
-    print("Hello, Python")
+    options = parse_cli(standalone_mode=False)
+
+    print(options.path)
 
 
 if __name__ == "__main__":
