@@ -1,3 +1,4 @@
+from dokufmt.config.configuration import Configuration
 from dokufmt.rules.rule import Rule
 
 
@@ -8,7 +9,11 @@ class RuleMetadataTests:
     expected_description: str
 
     def create_rule(self) -> Rule:
-        return self.rule_class()
+        config = Configuration()
+        option = config.get_option(self.expected_code)
+        rule = self.rule_class(option=option)
+
+        return rule
 
     def test_rule_has_code(self) -> None:
         rule = self.create_rule()

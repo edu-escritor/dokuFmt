@@ -1,10 +1,11 @@
 from textwrap import dedent
 
+from dokufmt.config.configuration import Configuration
 from dokufmt.rules.rule import Rule
 
 
 class RemoveLeadingBlankLines(Rule):
-    code = "DR-001"
+    code = Configuration.DR_001
     name = "Remove leading blank lines"
     description = "Remove blank lines from the beginning of the file."
 
@@ -25,4 +26,7 @@ class RemoveLeadingBlankLines(Rule):
         ).strip()
 
     def apply(self, content: str) -> str:
+        if not self.is_enabled:
+            return content
+
         return content.lstrip("\n")

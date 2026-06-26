@@ -1,10 +1,11 @@
+from dokufmt.config.configuration import Configuration
 from dokufmt.rules.ensure_trailing_blank_line import EnsureTrailingBlankLine
 from tests.rules.rule_metadata_tests import RuleMetadataTests
 
 
 class TestEnsureTrailingBlankLine(RuleMetadataTests):
     rule_class = EnsureTrailingBlankLine
-    expected_code = "DR-002"
+    expected_code = Configuration.DR_002
     expected_name = "Ensure trailing blank line"
     expected_description = "Ensure the file ends with exactly one trailing blank line."
 

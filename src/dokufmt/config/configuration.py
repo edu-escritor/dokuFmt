@@ -1,10 +1,15 @@
 from dataclasses import dataclass, field
+from typing import Final
 
 from dokufmt.config.option import Option
 
 
 @dataclass
 class Configuration:
+    DR_001: Final[str] = "DR-001"
+    DR_002: Final[str] = "DR-002"
+    DR_003: Final[str] = "DR-003"
+
     __options: dict[str, Option] = field(default_factory=dict)
 
     def __post_init__(self) -> None:
@@ -59,9 +64,9 @@ class Configuration:
     @classmethod
     def defaults(cls) -> dict[str, Option]:
         return {
-            "DR-001": Option(enabled=True),
-            "DR-002": Option(enabled=True),
-            "DR-003": Option(
+            Configuration.DR_001: Option(enabled=True),
+            Configuration.DR_002: Option(enabled=True),
+            Configuration.DR_003: Option(
                 enabled=True,
                 values={
                     "max-blank-lines": 1,

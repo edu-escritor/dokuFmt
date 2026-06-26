@@ -1,10 +1,11 @@
+from dokufmt.config.configuration import Configuration
 from dokufmt.rules.remove_leading_blank_lines import RemoveLeadingBlankLines
 from tests.rules.rule_metadata_tests import RuleMetadataTests
 
 
 class TestRemoveLeadingBlankLines(RuleMetadataTests):
     rule_class = RemoveLeadingBlankLines
-    expected_code = "DR-001"
+    expected_code = Configuration.DR_001
     expected_name = "Remove leading blank lines"
     expected_description = "Remove blank lines from the beginning of the file."
 

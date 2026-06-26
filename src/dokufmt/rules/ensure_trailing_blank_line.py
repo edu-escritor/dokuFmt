@@ -1,10 +1,11 @@
 from textwrap import dedent
 
+from dokufmt.config.configuration import Configuration
 from dokufmt.rules.rule import Rule
 
 
 class EnsureTrailingBlankLine(Rule):
-    code = "DR-002"
+    code = Configuration.DR_002
     name = "Ensure trailing blank line"
     description = "Ensure the file ends with exactly one trailing blank line."
 
@@ -23,4 +24,7 @@ class EnsureTrailingBlankLine(Rule):
         ).strip()
 
     def apply(self, content: str) -> str:
+        if not self.is_enabled:
+            return content
+
         return content.rstrip("\n") + "\n"

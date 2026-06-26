@@ -1,10 +1,11 @@
+from dokufmt.config.configuration import Configuration
 from dokufmt.rules.collapse_consecutive_blank_lines import CollapseConsecutiveBlankLines
 from tests.rules.rule_metadata_tests import RuleMetadataTests
 
 
 class TestCollapseConsecutiveBlankLines(RuleMetadataTests):
     rule_class = CollapseConsecutiveBlankLines
-    expected_code = "DR-003"
+    expected_code = Configuration.DR_003
     expected_name = "Collapse consecutive blank lines"
     expected_description = "Limit consecutive blank lines to the configured maximum."
 
