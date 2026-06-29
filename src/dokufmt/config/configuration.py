@@ -9,6 +9,7 @@ class Configuration:
     DR_001: Final[str] = "DR-001"
     DR_002: Final[str] = "DR-002"
     DR_003: Final[str] = "DR-003"
+    DR_004: Final[str] = "DR-004"
 
     __options: dict[str, Option] = field(default_factory=dict)
 
@@ -70,6 +71,12 @@ class Configuration:
                 enabled=True,
                 values={
                     "max-blank-lines": 1,
+                },
+            ),
+            Configuration.DR_004: Option(
+                enabled=True,
+                values={
+                    "blank-lines": 1,
                 },
             ),
         }

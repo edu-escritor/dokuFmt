@@ -1,0 +1,121 @@
+
+
+
+
+
+
+
+
+
+
+
+===== 🏢 Round Square =====
+
+Round Square is the primary residential structure used throughout the Example Federation.
+
+Each Round Square functions as a self-contained vertical district, combining housing, retail, public services, recreation and shared facilities within a single building.
+
+The various levels are organized to separate residential, commercial, technical and communal areas, minimizing the need for residents to leave the building.
+==== 📐 Dimensions ====
+Round Squares follow a standardized architectural design across the federation.
+
+* Building width: **310 m**
+* Height: **54 floors**
+* Floor height: **3.4 m**
+* Central corridor width: **3.5 m**
+
+==== 🏗️ Floor Layout ====
+Every Round Square follows the same internal organization.
+
+^ Floors ^ No. Floors ^ Layout ^ Type A ^ Type B ^ Type C ^ Pop./floor ^ Total Pop. ^
+| 1–8 | 8 | Type A only (40 m²) | 320 | — | — | ~410 | ~3 280 |
+| 9 | 1 | Community plaza | — | — | — | — | — |
+| 10–18 | 9 | 65% Type A / 35% Type B | 195 | 105 | — | ~500 | ~4 500 |
+| 19–27 | 9 | 45% Type A / 55% Type B | 135 | 165 | — | ~570 | ~5 130 |
+| 28 | 1 | Commercial services | — | — | — | — | — |
+| 29 | 1 | Community plaza | — | — | — | — | — |
+| 30 | 1 | Commercial services | — | — | — | — | — |
+| 31–39 | 9 | 60% Type B / 40% Type C | — | 180 | 120 | ~720 | ~6 480 |
+| 40–48 | 9 | 35% Type B / 65% Type C | — | 105 | 195 | ~810 | ~7 290 |
+| 49 | 1 | Commercial services | — | — | — | — | — |
+| 50 | 1 | Community plaza | — | — | — | — | — |
+| 51 | 1 | Commercial services | — | — | — | — | — |
+| 52–53 | 2 | Type C only (90 m²) | — | — | 260 | ~830 | ~1 660 |
+| 54 | 1 | Technical level | — | — | — | — | — |
+| **Total residents** ||||||| ~28 340 |
+
+==== 🌳 Community Plaza ====
+
+The Community Plaza is the primary public gathering space within a Round Square.
+
+Each building contains several plazas distributed throughout its height, serving as locations for recreation, social interaction and public events.
+
+Unlike the surrounding residential floors, these spaces feature open layouts and abundant natural light.
+=== 🌿 Purpose ===
+The plazas are designed to recreate the atmosphere of traditional town squares.
+
+They are commonly used for:
+
+* Relaxation;
+* Social gatherings;
+* Community events;
+* Small performances;
+* Seasonal markets;
+* Children's activities.
+
+=== 🌳 Features ===
+
+A typical plaza includes:
+
+* Trees;
+* Gardens;
+* Seating areas;
+* Cafés;
+* Decorative fountains;
+* Sculptures;
+* The [[central-hub|Central Hub]].
+
+=== 🏬 Adjacent Floors ===
+
+The plazas are surrounded by commercial and service floors.
+
+These levels contain restaurants, grocery stores, clinics, schools, retail shops and public offices, forming the main activity center of the building.
+
+=== 🚶 Access ===
+
+Each plaza connects directly to the elevator cores and stairwells through elevated walkways.
+
+Pedestrian circulation naturally converges toward these shared spaces.
+
+=== 💬 Importance ===
+
+The plazas represent the social heart of every Round Square.
+
+A significant portion of everyday life takes place here, greatly reducing the need for residents to travel outside the building.
+
+==== 🛗 Elevators ====
+
+Each corner of the building contains a core with **8 elevators**.
+
+* **2 express elevators**, connecting the underground levels, plazas and rooftop;
+* **3 ascending local elevators**, serving the floors between two adjacent plazas;
+* **3 descending local elevators**, serving the same section in the opposite direction.
+
+The local elevators do not travel through the entire building.
+
+Residents transfer between elevator groups at the plazas, which function as vertical transportation hubs.
+
+This arrangement improves travel efficiency while encouraging activity around the shared public spaces.
+
+==== 🚇 Transportation ====
+
+The underground levels are entirely dedicated to public transportation.
+
+Two independent transit systems operate beneath each Round Square:
+
+* **Local Rail**, connecting neighboring Round Squares;
+* **Regional Rail**, connecting the major metropolitan districts.
+
+The stations are clean, brightly lit, continuously monitored and considered among the safest locations in the federation.
+
+Surface streets remain accessible, although most residents prefer using the underground network even for short trips due to its speed and convenience.

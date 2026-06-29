@@ -15,6 +15,11 @@ class RuleMetadataTests:
 
         return rule
 
+    def apply_rule(self, content: str) -> str:
+        rule = self.create_rule()
+
+        return rule.apply(content)
+
     def test_rule_has_code(self) -> None:
         rule = self.create_rule()
 
